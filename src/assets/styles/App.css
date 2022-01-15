@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sen Regular"), url("../fonts/Sen-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Sen Bold"), url("../fonts/Sen-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sofia Pro Regular"),
+    url("../fonts/Sofia Pro Regular Az.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Sofia Pro Bold"),
+    url("../fonts/Sofia Pro Bold Az.woff") format("woff");
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background: #182c44;
+  font-family: "Sofia Pro", sans-serif;
+  font-family: "Sen";
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
