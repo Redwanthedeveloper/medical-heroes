@@ -582,6 +582,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 5rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -650,6 +655,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 30vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-\[280px\] {
   width: 280px;
 }
@@ -682,8 +691,59 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 0.5rem;
 }
 
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[1200\] {
+  width: 1200;
+}
+
+.w-\[1200px\] {
+  width: 1200px;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-\[95\] {
+  width: 95;
+}
+
+.w-\[95w\] {
+  width: 95w;
+}
+
+.w-\[95vw\] {
+  width: 95vw;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.min-w-max {
+  min-width: -webkit-max-content;
+  min-width: max-content;
+}
+
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
+}
+
+.max-w-screen-xl {
+  max-width: 1280px;
 }
 
 .flex-1 {
@@ -799,6 +859,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 10px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-t-\[1px\] {
   border-top-width: 1px;
 }
@@ -901,6 +965,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 5rem;
 }
 
+.pt-24 {
+  padding-top: 6rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -970,6 +1038,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-light {
   font-weight: 300;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
@@ -1321,6 +1393,16 @@ img {
     padding-bottom: 5rem;
   }
 
+  .lg\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .lg\:pr-20 {
     padding-right: 5rem;
   }
@@ -1331,6 +1413,10 @@ img {
 
   .lg\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .lg\:pt-48 {
+    padding-top: 12rem;
   }
 
   .lg\:text-left {

@@ -1,10 +1,16 @@
 import React from "react";
-import roundShape from "../assets/images/nfts/5.png";
+import bannerImage from "../assets/images/banner.svg";
 const About = () => {
   return (
     <div className="about lg:mt-48" id="about">
       <div className="container mx-auto px-4 xl:px-0">
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-[75px] justify-between items-center">
+        <div className="w-[100%] mx-auto">
+          <img src={bannerImage} alt="" className="w-full" />
+        </div>
+        {/* <h2 className="text-center text-[40px] text-secondary font-bold leading-[50px] font-heading pb-[50px] uppercase">
+          MEDICAL HEROES STORY
+        </h2> */}
+        {/* <div className="flex flex-col lg:flex-row gap-12 lg:gap-[75px] justify-between items-center">
           <div
             className="about__left relative flex-1 my-20 lg:my-0"
             data-aos="zoom-in"
@@ -25,28 +31,30 @@ const About = () => {
             data-aos="flip-down"
             data-aos-duration="1000"
           >
-            <h2 className="text-left text-[40px] text-secondary font-bold leading-[50px] font-heading pb-[50px] uppercase">
-              MEDICAL HEROES STORY
-            </h2>
             <p className="text-left font-normal font-heading text-[22px] text-white leading-[28px] pb-4 ">
-              With the arrival of March 2020 the world of the homosapiens was
-              changed forever! A mysterious virus alien tried to take over their
+              <span className="text-primary font-bold">
+                {" "}
+                With the arrival of March 2020 the world of the homosapiens was
+                changed forever!
+              </span>{" "}
+              <br /> <br />A mysterious virus alien tried to take over their
               world by stealing the air from the homosapien’s lungs so that they
-              could use their breath and develop their own voice. Nevertheless,
-              a heroic group of Caring Heroes courageously suited up as it were,
-              at great sacrifice to themselves and their families and went to
-              battle! Sometimes, these heroes went to battle even without all of
-              their proper armor because they were just that determined to
-              ensure that the homosapiens could keep their breath to use their
-              voice to poetically tell their individual unique heroic stories.
-              In celebration of their heroic efforts and out of appreciation for
-              their courage, the homosapiens developed the ritual of reading
-              aloud, writing, and performing poetry everyday while cataloging
-              each of their journeys so as to be forever remembered in the
-              Metaverse. Where a new generation of Heroic Poets were born!
+              could use their breath and develop their own voice. <br /> <br />{" "}
+              Nevertheless, a heroic group of Caring Heroes courageously suited
+              up as it were, at great sacrifice to themselves and their families
+              and went to battle! <br /> Sometimes, these heroes went to battle
+              even without all of their proper armor because they were just that
+              determined to ensure that the homosapiens could keep their breath
+              to use their voice to poetically tell their individual unique
+              heroic stories. <br /> <br /> In celebration of their heroic
+              efforts and out of appreciation for their courage, the homosapiens
+              developed the ritual of reading aloud, writing, and performing
+              poetry everyday while cataloging each of their journeys so as to
+              be forever remembered in the Metaverse. Where a new generation of
+              Heroic Poets were born!
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
