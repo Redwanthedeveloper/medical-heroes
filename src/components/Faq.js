@@ -6,7 +6,11 @@ const Faq = () => {
     <>
       <div className="faq mt-20 lg:mt-32" id="faq">
         <div className="container mx-auto">
-          <h2 className="text-center text-secondary text-3xl uppercase font-bold">
+          <h2
+            className="text-center text-secondary text-3xl uppercase font-bold"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             FREQUENTLY ASKED QUESTIONS
           </h2>
           <div className="px-4 pt-4 sm:pt-8">
