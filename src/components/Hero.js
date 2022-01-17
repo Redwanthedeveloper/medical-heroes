@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="flex items-center gap-5 bg-primary hover:bg-secondary transition-all py-4 px-6 rounded-md w-56 lg:m-0 mx-auto">
               <img src={next} alt="" /> <img src={line} alt="" />
               <a
-                href="https://www.instagram.com/heroic_poet_society/"
+                href="https://twitter.com/HeroesCaring/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl text-white font-normal"

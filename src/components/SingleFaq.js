@@ -48,7 +48,7 @@ const SingleFaq = ({ title, content }) => {
           </span>
         </div>
         {isActive && (
-          <p class="py-4 text-base font-light md:text-lg text-primary font-body transition-all">
+          <p class="py-4 text-base font-light md:text-lg text-primary font-body transition-all pl-12">
             {content}
           </p>
         )}

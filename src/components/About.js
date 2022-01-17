@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImage from "../assets/images/banner.svg";
+import bannerImage from "../assets/images/banner.png";
 const About = () => {
   return (
     <div className="about lg:mt-48" id="about">

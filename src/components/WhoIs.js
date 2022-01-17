@@ -53,7 +53,11 @@ const WhoIs = () => {
               The possibilities are limitless!
             </p>
           </div>
-          <div className="right flex-1">
+          <div
+            className="right flex-1 "
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            >
             <div className="right__wrapper grid grid-cols-2 gap-8">
               <img src={image1} alt="" className="max-w-full" />
               <img src={image2} alt="" className="max-w-full" />
@@ -62,7 +66,7 @@ const WhoIs = () => {
             </div>
             <div className="border-2 text-center hover:bg-secondary transition-all py-4 my-8 px-6 rounded-md w-56  mx-auto">
               <a
-                href="https://www.instagram.com/heroic_poet_society/"
+                href="https://twitter.com/HeroesCaring"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl text-white font-normal"

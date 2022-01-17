@@ -1,7 +1,8 @@
 import React from "react";
-import image from "../assets/images/team/1.png";
-import image2 from "../assets/images/team/2.png";
+import image from "../assets/images/team/2.png";
+import image2 from "../assets/images/team/1.png";
 import image3 from "../assets/images/team/3.png";
+import image4 from "../assets/images/team/4.png";
 
 const Team = () => {
   return (
@@ -15,9 +16,9 @@ const Team = () => {
           >
             our team
           </h2>
-          <div className="team__wrapper grid gap-6 lg:grid-cols-3 md:grid-cols-3 grid-cols-1">
+          <div className="team__wrapper grid gap-6 lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
             <div
-              className="team__item overflow-hidden rounded-t-xl rounded-b-sm bg-secondary"
+              className="team__item  rounded-t-xl rounded-b-sm bg-secondary h-[500px] overflow-y-scroll"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
@@ -25,7 +26,7 @@ const Team = () => {
               <h3 className="text-white text-center  py-6 text-lg  font-bold font-body uppercase">
                 Heroine Ladybug
               </h3>
-              <p className="text-base px-4 pb-4 text-white uppercase text-center">
+              <p className="text-base px-4 pb-4 text-white uppercase text-center ">
                 HEROINE LADYBUG IS AN NFT ENTHUSIAST WITH OVER 25 YEARS IN THE
                 FINANCIAL INDUSTRY WORKING FOR PROMINENT FINANCIAL INSTITUTIONS
                 SUCH AS CITIBANK, CHASE, AND STATE FARM. AS A NY RESIDENT WHO
@@ -48,7 +49,7 @@ const Team = () => {
                 positive poet
               </h3>
               <p className="text-base px-4 pb-4 text-white text-center uppercase">
-                Co-Founder & Developer
+                Co-Founder & Marketing
               </p>
             </div>
 
@@ -63,6 +64,20 @@ const Team = () => {
               </h3>
               <p className="text-base px-4 pb-4 text-white uppercase text-center">
                 artist
+              </p>
+            </div>
+
+            <div
+              className="team__item overflow-hidden rounded-t-xl rounded-b-sm bg-secondary"
+              data-aos="fade-up"
+              data-aos-duration="1400"
+            >
+              <img src={image4} alt="" className="" />
+              <h3 className="text-white text-center py-6 text-lg  font-bold font-body uppercase">
+                Tamir
+              </h3>
+              <p className="text-base px-4 pb-4 text-white uppercase text-center">
+                Developer
               </p>
             </div>
           </div>

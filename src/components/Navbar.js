@@ -39,13 +39,13 @@ const Navbar = () => {
               {/* mobile menu  */}
               {showNav && (
                 <div className="lg:hidden absolute w-full bg-[#212940] top-0 left-0 z-10">
-                  <ul className="flex flex-col w-full gap-8 items-center py-12  text-white font-body font-bold">
+                  <ul className="flex flex-col w-full gap-8 items-center py-12  text-white font-body font-bold ">
                     <li className="hover:text-secondary flex  items-center gap-2">
                       <a href="#about"> About</a>
                     </li>
 
                     <li className="hover:text-secondary flex  items-center gap-2">
-                      <a href="#gallery">Gellery</a>
+                      <a href="#gallery">Gallery</a>
                     </li>
                     <li className="hover:text-secondary flex  items-center gap-2">
                       <a href="#roadmap">Roadmap</a>
@@ -79,7 +79,7 @@ const Navbar = () => {
 
                   <li className="hover:text-secondary flex  items-center gap-2">
                     <span className="h-2 w-2 bg-white rounded-full"></span>{" "}
-                    <a href="#gallery">Gellery</a>
+                    <a href="#gallery">Gallery</a>
                   </li>
                   <li className="hover:text-secondary flex  items-center gap-2">
                     <span className="h-2 w-2 bg-white rounded-full"></span>{" "}
