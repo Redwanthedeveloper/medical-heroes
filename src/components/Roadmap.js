@@ -4,7 +4,7 @@ const Roadmap = () => {
   return (
     <>
       <div
-        className="roadmap lg:mt-32"
+        className="roadmap mt-20 lg:mt-32"
         id="roadmap"
         data-aos="fade-down"
         data-aos-duration="1000"

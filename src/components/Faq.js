@@ -1,10 +1,15 @@
 import React from "react";
 import SingleFaq from "./SingleFaq";
+import bg from "../assets/images/faq.jpg";
 
 const Faq = () => {
   return (
     <>
-      <div className="faq mt-20 lg:mt-32" id="faq">
+      <div
+        className="faq py-12 mt-20 lg:mt-32 relative"
+        id="faq"
+        style={{ background: `url(${bg})` }}
+      >
         <div className="container mx-auto">
           <h2
             className="text-center text-secondary text-3xl uppercase font-bold"

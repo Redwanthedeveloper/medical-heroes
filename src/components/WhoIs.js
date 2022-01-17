@@ -57,7 +57,7 @@ const WhoIs = () => {
             className="right flex-1 "
             data-aos="fade-left"
             data-aos-duration="1000"
-            >
+          >
             <div className="right__wrapper grid grid-cols-2 gap-8">
               <img src={image1} alt="" className="max-w-full" />
               <img src={image2} alt="" className="max-w-full" />

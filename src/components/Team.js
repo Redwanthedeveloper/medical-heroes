@@ -7,7 +7,7 @@ import image4 from "../assets/images/team/4.png";
 const Team = () => {
   return (
     <>
-      <div className="team lg:mt-32" id="team">
+      <div className="team mt-20 lg:mt-32" id="team">
         <div className="container mx-auto px-4 lg:px-0">
           <h2
             className="text-center text-secondary text-4xl uppercase font-bold mb-12 font-heading"
@@ -16,7 +16,7 @@ const Team = () => {
           >
             our team
           </h2>
-          <div className="team__wrapper grid gap-6 lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+          <div className="team__wrapper grid gap-6 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1">
             <div
               className="team__item  rounded-t-xl rounded-b-sm bg-secondary h-[500px] overflow-y-scroll"
               data-aos="fade-up"
