@@ -1,9 +1,25 @@
 import React, { useState } from "react";
+// import { useDispatch, useSelector } from "react-redux";
+// import { connect } from "../redux/blockchain/blockchainActions";
+// import { fetchData } from "../redux/data/dataActions";
 import logo from "../assets/images/logo.png";
 import line from "../assets/images/line.png";
 import next from "../assets/images/next.png";
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
+  // const dispatch = useDispatch();
+  // const blockchain = useSelector((state) => state.blockchain);
+
+  // const getData = () => {
+  //   if (blockchain.account !== "" && blockchain.smartContract !== null) {
+  //     dispatch(fetchData(blockchain.account));
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   getData();
+  //   // eslint-disable-next-line
+  // }, [blockchain.account]);
   return (
     <>
       <div className="header w-full" id="">
@@ -95,7 +111,7 @@ const Navbar = () => {
                     <span className="h-2 w-2 bg-white rounded-full"></span>{" "}
                     <a href="#faq">Faq</a>
                   </li>
-                  <li className="flex items-center gap-5 bg-secondary hover:bg-secondary transition-all py-4 px-8 rounded-md">
+                  <li className="flex items-center gap-5 bg-secondary hover:bg-secondary transition-all py-4 px-8 rounded-md text-white">
                     <img src={next} alt="" /> <img src={line} alt="" />
                     <a
                       href="https://discord.gg/zmU6zBnE"
@@ -105,6 +121,17 @@ const Navbar = () => {
                       Join Discord
                     </a>
                   </li>
+                  {/* <li className="border-[1px] text-center py-4 px-8 max-w-[12rem] rounded-lg  font-medium text-white">
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      Connect
+                    </button>
+                  </li> */}
                 </ul>
               </div>
             </div>

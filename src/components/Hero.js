@@ -3,6 +3,7 @@ import dotShape from "../assets/images/shape-3.png";
 import line from "../assets/images/line.png";
 import next from "../assets/images/next.png";
 import roundShape from "../assets/images/nfts/8.png";
+// import Mint from "./Mint";
 
 const Hero = () => {
   return (
@@ -37,11 +38,14 @@ const Hero = () => {
           </div>
           <div className="hero__right relative flex-1">
             <div
-              className="2xl:max-h-[752px] 2xl:max-w-[752px] 2xl:w-full 2xl:h-full md:h-[400px] md:w-[400px] ml-auto bg-[#d7d7d7] rounded-full border-[#2b4a6f] border-[10px] overflow-hidden"
+              className="2xl:max-h-[752px] 2xl:max-w-[752px] 2xl:w-full 2xl:h-full md:h-[400px] md:w-[400px] ml-auto bg-[#d7d7d7] rounded-full border-[#2b4a6f] border-[10px] overflow-hidden relative"
               data-aos="zoom-in"
               data-aos-duration="1200"
             >
               <img src={roundShape} alt="" className="max-w-full w-full" />
+              {/* <div className="mint__card p-4 absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 bg-[#4495ff9c] rounded-full">
+                <Mint />
+              </div> */}
             </div>
             <div className="hidden xl:block absolute 2xl:bottom-0 2xl:right-0 md:-bottom-12 md:-right-28">
               <img src={dotShape} alt="" className="max-w-full" />
