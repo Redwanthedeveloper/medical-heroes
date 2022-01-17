@@ -23,7 +23,7 @@ const Hero = () => {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
               architecto molestias non est?
             </p>
-            <div className="flex items-center gap-5 bg-primary hover:bg-secondary transition-all py-4 px-6 rounded-md w-56 lg:m-0 mx-auto">
+            <div className="flex items-center gap-5 bg-secondary hover:bg-secondary transition-all py-4 px-6 rounded-md w-56 lg:m-0 mx-auto">
               <img src={next} alt="" /> <img src={line} alt="" />
               <a
                 href="https://twitter.com/HeroesCaring/"

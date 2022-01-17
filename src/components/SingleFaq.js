@@ -9,7 +9,7 @@ const SingleFaq = ({ title, content }) => {
           className="FrequentlyAsked__question header-bg rounded flex justify-between items-center cursor-pointer"
           onClick={() => setIsActive(!isActive)}
         >
-          <p className="text-base md:text-xl font-bold text-primary flex gap-6 items-center transition-all">
+          <p className="text-base md:text-xl font-bold text-secondary flex gap-6 items-center transition-all">
             <span>
               <img src={next} alt="" />
             </span>{" "}
@@ -48,7 +48,7 @@ const SingleFaq = ({ title, content }) => {
           </span>
         </div>
         {isActive && (
-          <p class="py-4 text-base font-light md:text-lg text-primary font-body transition-all pl-12">
+          <p class="py-4 text-base font-light md:text-lg text-[#343353] font-body transition-all pl-12">
             {content}
           </p>
         )}

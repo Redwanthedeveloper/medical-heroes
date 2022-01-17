@@ -7,11 +7,7 @@ import image4 from "../assets/images/nfts/4.png";
 
 const WhoIs = () => {
   return (
-    <div
-      className="about pt-24 lg:py-24 mt-24 relative"
-      id="about"
-      style={{ background: `url(${bg})` }}
-    >
+    <div className="about py-12 lg:py-24 relative" id="about">
       {/* <img src={bg} alt="" className="absolute h-full w-full" /> */}
       <div className="container mx-auto px-4 xl:px-0">
         <div className="wrapper flex flex-col lg:flex-row items-center justify-between gap-16">

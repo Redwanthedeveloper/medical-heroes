@@ -25,7 +25,7 @@ const Navbar = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     class="ionicon"
                     viewBox="0 0 512 512"
-                    className="text-secondary h-8 w-8"
+                    className="text-white h-8 w-8"
                   >
                     <path
                       fill="none"
@@ -58,7 +58,7 @@ const Navbar = () => {
                     <li className="hover:text-secondary flex  items-center gap-2">
                       <a href="#faq">Faq</a>
                     </li>
-                    <li className="flex items-center gap-5 bg-primary hover:bg-secondary transition-all py-4 px-8 rounded-md text-white">
+                    <li className="flex items-center gap-5 bg-secondary hover:bg-secondary transition-all py-4 px-8 rounded-md text-white">
                       <img src={next} alt="" /> <img src={line} alt="" />
                       <a
                         href="https://discord.gg/zmU6zBnE"
@@ -95,7 +95,7 @@ const Navbar = () => {
                     <span className="h-2 w-2 bg-white rounded-full"></span>{" "}
                     <a href="#faq">Faq</a>
                   </li>
-                  <li className="flex items-center gap-5 bg-primary hover:bg-secondary transition-all py-4 px-8 rounded-md">
+                  <li className="flex items-center gap-5 bg-secondary hover:bg-secondary transition-all py-4 px-8 rounded-md">
                     <img src={next} alt="" /> <img src={line} alt="" />
                     <a
                       href="https://discord.gg/zmU6zBnE"

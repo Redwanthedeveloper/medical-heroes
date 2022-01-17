@@ -25,7 +25,7 @@ const About = () => {
             <div className="relative">
               <div className="line__holder w-[4px] h-full bg-[#f9e14a] absolute top-0"></div>
               <p className="text-left font-normal font-heading text-lg text-white leading-[28px] pb-4 ml-4">
-                <span className="text-primary font-bold">
+                <span className="text-secondary font-bold">
                   {" "}
                   With the arrival of March 2020 the world of the homosapiens
                   was changed forever!

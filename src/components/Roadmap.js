@@ -1,13 +1,15 @@
 import React from "react";
 import roadmapImage from "../assets/images/roadmap.png";
+import bg from "../assets/images/background.jpg";
 const Roadmap = () => {
   return (
     <>
       <div
-        className="roadmap mt-20 lg:mt-32"
+        className="roadmap mt-20 lg:mt-32 py-12"
         id="roadmap"
         data-aos="fade-down"
         data-aos-duration="1000"
+        style={{ background: `url(${bg})` }}
       >
         <div className="container mx-auto px-4 xl:px-0">
           <div className="mb-8">

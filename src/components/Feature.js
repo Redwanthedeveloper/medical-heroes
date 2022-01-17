@@ -7,10 +7,15 @@ import boxImage5 from "../assets/images/nfts/5.png";
 import boxImage6 from "../assets/images/nfts/6.png";
 import boxImage7 from "../assets/images/nfts/7.png";
 import boxImage8 from "../assets/images/nfts/8.png";
+import bg from "../assets/images/background.jpg";
 
 const Feature = () => {
   return (
-    <div className="feature mt-24 lg:mt-36" id="gallery">
+    <div
+      className="feature py-12 mt-24 lg:mt-36"
+      id="gallery"
+      style={{ background: `url(${bg})` }}
+    >
       <div className="container mx-auto px-4 ">
         <h2
           className="text-[40px] text-center font-bold font-heading text-white leading-[50px] pb-14"
