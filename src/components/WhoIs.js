@@ -1,5 +1,4 @@
 import React from "react";
-import bg from "../assets/images/background.jpg";
 import image1 from "../assets/images/nfts/1.png";
 import image2 from "../assets/images/nfts/2.png";
 import image3 from "../assets/images/nfts/3.png";
