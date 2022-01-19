@@ -516,16 +516,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
-.left-0 {
-  left: 0px;
-}
-
 .left-2\/4 {
   left: 50%;
 }
 
 .top-2\/4 {
   top: 50%;
+}
+
+.left-0 {
+  left: 0px;
 }
 
 .top-\[12px\] {
@@ -692,14 +692,14 @@ Ensure the default browser behavior of the `hidden` attribute.
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-translate-y-full {
-  --tw-translate-y: -100%;
+.-translate-y-2\/4 {
+  --tw-translate-y: -50%;
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-translate-y-2\/4 {
-  --tw-translate-y: -50%;
+.-translate-y-full {
+  --tw-translate-y: -100%;
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -858,6 +858,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(215 215 215 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#4495ff9c\] {
+  background-color: #4495ff9c;
+}
+
 .bg-\[\#212940\] {
   --tw-bg-opacity: 1;
   background-color: rgb(33 41 64 / var(--tw-bg-opacity));
@@ -876,51 +880,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: #ffffff10;
 }
 
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#000\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#c95a5a\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(201 90 90 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#9c5ac967\] {
-  background-color: #9c5ac967;
-}
-
-.bg-\[\#5a5cc967\] {
-  background-color: #5a5cc967;
-}
-
-.bg-\[\#5a8ac967\] {
-  background-color: #5a8ac967;
-}
-
-.bg-\[\#4495ff67\] {
-  background-color: #4495ff67;
-}
-
-.bg-\[\#4495ff6c\] {
-  background-color: #4495ff6c;
-}
-
-.bg-\[\#4495ff9c\] {
-  background-color: #4495ff9c;
-}
-
 .p-4 {
   padding: 1rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .px-4 {
@@ -941,6 +902,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .px-8 {
@@ -966,11 +932,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pb-8 {
@@ -1050,14 +1011,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base {
@@ -1115,24 +1076,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#343353\] {
-  --tw-text-opacity: 1;
-  color: rgb(52 51 83 / var(--tw-text-opacity));
-}
-
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(0 90 255 / var(--tw-text-opacity));
-}
-
-.text-red-400 {
-  --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
-}
-
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.text-\[\#343353\] {
+  --tw-text-opacity: 1;
+  color: rgb(52 51 83 / var(--tw-text-opacity));
 }
 
 .transition-all {

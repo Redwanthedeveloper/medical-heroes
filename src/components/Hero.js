@@ -2,7 +2,7 @@ import React from "react";
 import dotShape from "../assets/images/shape-3.png";
 import line from "../assets/images/line.png";
 import next from "../assets/images/next.png";
-import roundShape from "../assets/images/nfts/8.png";
+import roundShape from "../assets/images/hero.png";
 // import Mint from "./Mint";
 
 const Hero = () => {
