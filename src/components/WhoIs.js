@@ -6,7 +6,7 @@ const WhoIs = () => {
     <div className="about py-12 lg:py-24 relative" id="about">
       {/* <img src={bg} alt="" className="absolute h-full w-full" /> */}
       <div className="container mx-auto px-4 xl:px-0">
-        <div className="wrapper flex flex-col lg:flex-row items-center justify-between gap-16">
+        <div className="wrapper flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="left flex-1">
             <h2
               className="text-left text-[40px] text-secondary font-bold leading-[50px] font-heading pb-[50px] uppercase "
@@ -51,7 +51,7 @@ const WhoIs = () => {
             data-aos-duration="1000"
           >
             <div className="right__wrapper">
-              <img src={image1} alt="" className="max-w-full" />
+              <img src={image1} alt="" className="max-w-full w-full" />
             </div>
             <div className="border-2 text-center hover:bg-secondary transition-all py-4 my-8 px-6 rounded-md w-56  mx-auto">
               <a
