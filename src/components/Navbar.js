@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import { useDispatch, useSelector } from "react-redux";
 // import { connect } from "../redux/blockchain/blockchainActions";
 // import { fetchData } from "../redux/data/dataActions";
-import logo from "../assets/images/logo.png";
+// import logo from "../assets/images/logo.png";
 import line from "../assets/images/line.png";
 import next from "../assets/images/next.png";
 const Navbar = () => {
@@ -26,8 +26,8 @@ const Navbar = () => {
         {/* <div className="xl:px-[100px] py-6 xl:py-[56px] px-4"> */}
         <div className="container mx-auto py-6 xl:py-[48px] px-8 lg:px-0">
           <div className="header__wrapper flex lg:flex justify-between items-center w-full">
-            <div className="w-24 lg:w-28 rounded-full overflow-hidden border-4 border-secondary">
-              <img src={logo} alt="" className="" />
+            <div className="w-24 lg:w-28 rounded-full overflow-hidden">
+              {/* <img src={logo} alt="" className="" /> */}
               {/* <h1 className="font-bold text-4xl text-white">Logo</h1> */}
             </div>
             <div className="header__main flex justify-between lg:justify-start lg:flex lg:gap-48 items-center">

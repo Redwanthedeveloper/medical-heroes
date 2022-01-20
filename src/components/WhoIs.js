@@ -1,8 +1,5 @@
 import React from "react";
-import image1 from "../assets/images/nfts/1.png";
-import image2 from "../assets/images/nfts/2.png";
-import image3 from "../assets/images/nfts/3.png";
-import image4 from "../assets/images/nfts/4.png";
+import image1 from "../assets/images/hero.png";
 
 const WhoIs = () => {
   return (
@@ -53,11 +50,8 @@ const WhoIs = () => {
             data-aos="fade-left"
             data-aos-duration="1000"
           >
-            <div className="right__wrapper grid grid-cols-2 gap-8">
+            <div className="right__wrapper">
               <img src={image1} alt="" className="max-w-full" />
-              <img src={image2} alt="" className="max-w-full" />
-              <img src={image3} alt="" className="max-w-full" />
-              <img src={image4} alt="" className="max-w-full" />
             </div>
             <div className="border-2 text-center hover:bg-secondary transition-all py-4 my-8 px-6 rounded-md w-56  mx-auto">
               <a

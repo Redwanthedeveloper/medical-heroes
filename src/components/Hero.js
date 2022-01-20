@@ -2,7 +2,7 @@ import React from "react";
 import dotShape from "../assets/images/shape-3.png";
 import line from "../assets/images/line.png";
 import next from "../assets/images/next.png";
-import roundShape from "../assets/images/hero.png";
+import roundShape from "../assets/images/logo.png";
 // import Mint from "./Mint";
 
 const Hero = () => {
@@ -20,9 +20,8 @@ const Hero = () => {
               Medical Heroes
             </h1>
             <p className="text-center lg:text-left leading-[28px] text-white text-xl font-heading font-normal py-12">
-              {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-              architecto molestias non est?
+              The First Collection by the Heroic Poet Society to honor "Real
+              Life" Modern Day Heroes!
             </p>
             <div className="flex items-center gap-5 bg-secondary hover:bg-secondary transition-all py-4 px-6 rounded-md w-56 lg:m-0 mx-auto">
               <img src={next} alt="" /> <img src={line} alt="" />
