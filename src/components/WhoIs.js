@@ -46,7 +46,7 @@ const WhoIs = () => {
             </p>
           </div>
           <div
-            className="right flex-1 "
+            className="right flex-1 self-end"
             data-aos="fade-left"
             data-aos-duration="1000"
           >
